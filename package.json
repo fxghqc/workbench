@@ -1,0 +1,47 @@
+{
+  "name": "admin",
+  "description": "Fx's dashboard",
+  "version": "0.0.1",
+  "repository": "",
+  "bugs": "",
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "dashboard"
+  ],
+  "author": "fx",
+  "dependencies": {
+    "co": "^3.0.6",
+    "co-body": "0.0.2",
+    "co-busboy": "^1.0.2",
+    "co-fs": "^1.2.0",
+    "co-views": "^0.2.0",
+    "ejs": "^1.0.0",
+    "koa": "^0.8.0",
+    "koa-basic-auth": "^1.1.1",
+    "koa-compose": "^2.3.0",
+    "koa-csrf": "^2.1.1",
+    "koa-logger": "^1.2.1",
+    "koa-route": "^1.1.4",
+    "koa-router": "^3.4.0",
+    "koa-session": "^2.0.0",
+    "koa-static": "^1.4.7",
+    "raw-body": "^1.2.1",
+    "save-to": "^1.0.3",
+    "socket.io": "^1.1.0",
+    "ssh2": "^0.4.4",
+    "streaming-json-stringify": "^1.0.0",
+    "tail": "^0.4.0"
+  },
+  "devDependencies": {
+    "co": "*",
+    "mocha": "*",
+    "should": "^3.3.2",
+    "supertest": "*"
+  },
+  "engines": {
+    "node": ">= 11.3"
+  },
+  "license": "MIT"
+}
